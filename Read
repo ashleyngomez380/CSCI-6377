@@ -1,0 +1,23 @@
+Cluster_16
+The name "cluster_16" signifies that this implementation is the 16-th iteration of your neural network model.
+
+Introduction
+Cluster_16 utilizes PyTorch to construct a Convolutional Neural Network (CNN) architecture. 
+The model comprises two convolutional layers followed by a max-pooling layer.
+Additionally, this code offers a visualization of the data by displaying the 
+first 16 car entries, providing an initial check for data import accuracy.
+
+Usage
+To use this code:
+
+Ensure you have a compatible GPU available due to the computational demands.
+Input your data in CSV format, containing ID and Pixel information.
+Execute the provided script to train the CNN model.
+Once trained, the model will predict whether the input image represents a car or a pickup truck.
+
+Dependencies
+PyTorch
+
+Note
+Given the computational intensity of this model, it's advisable to run it on a system with sufficient GPU resources for optimal performance.
+
